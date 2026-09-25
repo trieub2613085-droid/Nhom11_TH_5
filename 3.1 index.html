@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lợi ích của công nghệ số</title>
+    <style>
+      :root {
+        --bg: #f4f7fb;
+        --card: #ffffff;
+        --primary: #0b5ed7;
+        --primary-dark: #0a3c8d;
+        --text: #1f2937;
+        --muted: #5b6474;
+        --accent: #dfeeff;
+        --border: #dfe7f5;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(180deg, #eef5ff 0%, var(--bg) 100%);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 40px 20px 60px;
+      }
+
+      header {
+        background: linear-gradient(135deg, var(--primary) 0%, #2f80ed 100%);
+        color: white;
+        border-radius: 20px;
+        padding: 40px 30px;
+        box-shadow: 0 18px 40px rgba(11, 94, 215, 0.22);
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0 auto 12px;
+        font-size: clamp(2rem, 3vw, 3rem);
+        text-align: center;
+      }
+
+      .subtitle {
+        margin: 0 auto;
+        font-size: 1.08rem;
+        max-width: 760px;
+        color: rgba(255,255,255,0.9);
+        text-align: center;
+      }
+
+      .section {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 28px 24px;
+        margin-top: 28px;
+        box-shadow: 0 10px 25px rgba(15, 23, 42, 0.04);
+      }
+
+      h2 {
+        margin-top: 0;
+        color: var(--primary-dark);
+        font-size: clamp(1.4rem, 2vw, 2rem);
+      }
+
+      .info-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 18px;
+        margin-top: 18px;
+      }
+
+      .info-box {
+        background: var(--accent);
+        border-radius: 14px;
+        padding: 20px 18px;
+        border: 1px solid #cfe1ff;
+      }
+
+      .info-box h3 {
+        margin: 0 0 8px;
+        font-size: 1.1rem;
+        color: var(--primary-dark);
+      }
+
+      .image-wrap {
+        text-align: center;
+        margin-top: 18px;
+      }
+
+      img {
+        max-width: 100%;
+        border-radius: 16px;
+        border: 1px solid var(--border);
+        box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+      }
+
+      video {
+        width: 100%;
+        max-width: 900px;
+        border-radius: 16px;
+        background: #000;
+        box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+      }
+
+      .source-note {
+        margin-top: 28px;
+        padding: 18px 20px;
+        border-left: 5px solid var(--primary);
+        background: #f7faff;
+        border-radius: 12px;
+        color: var(--text);
+      }
+
+      .source-note strong {
+        color: var(--primary-dark);
+      }
+
+      .credit {
+        margin-top: 24px;
+        font-size: 0.92rem;
+        color: var(--muted);
+        text-align: center;
+      }
+
+      @media (max-width: 640px) {
+        header {
+          padding: 28px 20px;
+        }
+        .section {
+          padding: 20px 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Lợi ích của công nghệ số</h1>
+        <p class="subtitle">
+          Công nghệ số đang thay đổi cách con người làm việc, học tập, giao tiếp và sáng tạo.
+          Nó mang lại hiệu quả, kết nối và cơ hội phát triển vượt bậc trong thời đại số hóa.
+        </p>
+      </header>
+
+      <section class="section">
+        <h2>Tại sao công nghệ số quan trọng?</h2>
+        <div class="info-grid">
+          <div class="info-box">
+            <h3>Tăng hiệu quả</h3>
+            <div>Giảm thời gian xử lý công việc nhờ tự động hóa, phần mềm và dữ liệu số.</div>
+          </div>
+          <div class="info-box">
+            <h3>Kết nối nhanh hơn</h3>
+            <div>Cho phép mọi người giao tiếp, làm việc từ xa và chia sẻ thông tin tức thời.</div>
+          </div>
+          <div class="info-box">
+            <h3>Học tập linh hoạt</h3>
+            <div>Học trực tuyến, đào tạo kỹ năng mới và tiếp cận tri thức mọi lúc, mọi nơi.</div>
+          </div>
+          <div class="info-box">
+            <h3>Khả năng sáng tạo</h3>
+            <div>Khuyến khích đổi mới trong thiết kế, nghiên cứu, kinh doanh và giải pháp xã hội.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Infographic minh họa</h2>
+        <div class="image-wrap">
+          <img src="2.1 Infographic.png" alt="Infographic về lợi ích của công nghệ số" />
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Video giới thiệu</h2>
+        <div class="image-wrap">
+          <video controls preload="metadata" playsinline>
+            <source src="2.2 Video.mp4" type="video/mp4" />
+            Trình duyệt của bạn không hỗ trợ video HTML5.
+          </video>
+        </div>
+      </section>
+
+      <div class="source-note">
+        <strong>Ghi chú nguồn AI:</strong> Nội dung trang được hỗ trợ và tổng hợp từ mô hình AI, bao gồm
+        <em>OpenAI ChatGPT</em> và <em>GitHub Copilot</em> để xây dựng cấu trúc, văn bản và bài thuyết minh.
+        Tất cả hình ảnh và video trong trang là tài liệu được Canva AI và CapCut AI tạo ra.
+      </div>
+
+    </div>
+  </body>
+</html>
