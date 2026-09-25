@@ -33,7 +33,7 @@ Bài thực hành số 5 gồm 3 phần chính:
 
 ## Giấy phép / License
 
-Infographic (`2.1 Infographic.png`) và video (`2.2 Video.mp4`) được chia sẻ theo giấy phép [**Creative Commons Attribution 4.0 International (CC BY 4.0)**]. Xem file LICENSE hoặc vào (https://creativecommons.org/licenses/by/4.0/) — được tự do sử dụng, chia sẻ và chỉnh sửa, miễn ghi rõ nguồn.
+Infographic (`2.1 Infographic.png`) và video (`2.2 Video.mp4`) được chia sẻ theo giấy phép [**Creative Commons Attribution 4.0 International (CC BY 4.0)**]. Xem file [LICENSE](./LICENSE) hoặc vào (https://creativecommons.org/licenses/by/4.0/) — được tự do sử dụng, chia sẻ và chỉnh sửa, miễn ghi rõ nguồn.
 
 - Infographic: tạo bằng Canva AI, hình ảnh nền từ Unsplash (CC0).
 - Video: dựng bằng CapCut, tài liệu gốc từ Pexels/FreeSound (CC0).
